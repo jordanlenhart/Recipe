@@ -1,0 +1,53 @@
+body {
+    background-color: darkgray;
+}
+
+#title {
+    font-size: 100px;
+    color: orange;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+
+.sectionHeadings {
+    color: orange;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#caption {
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.lists {
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+}
+
+ol > li::marker {
+    font-weight: bold;
+    font-size: large;
+}
+
+.subheading {
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 10
+    %;
+}
